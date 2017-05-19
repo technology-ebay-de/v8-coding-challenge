@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Coding Challenge</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <h1>Wie viel LED-Kits benötige ich?</h1>
+
+            <div class="selectables">
+                <h2>Was möchtest Du ausleuchten?</h2>
+
+                <form action="">
+
+                    <div class="control">
+                        <input class="styled-checkbox" id="footwell-front" data-id="1" type="checkbox" value="Fußraum vorne">
+                        <label for="footwell-front">Fußraum vorne</label>
+                    </div>
+
+                    <div class="control">
+                        <input class="styled-checkbox" id="footwell-back" data-id="2" type="checkbox" value="Fußraum hinten">
+                        <label for="footwell-back">Fußraum hinten</label>
+                    </div>
+
+                    <div class="control">
+                        <input class="styled-checkbox" id="trunk" data-id="3" type="checkbox" value="Kofferraum">
+                        <label for="trunk">Kofferraum</label>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="car">
+
+                <img src="/assets/car.png" alt="">
+
+                <img src="/assets/ledDouble.png" alt="Fußraum vorne" class="lights lights__footwell-front hide">
+
+                <img src="/assets/ledDouble.png" alt="Fußraum hinten" class="lights lights__footwell-back hide">
+
+                <img src="/assets/ledDouble.png" alt="Kofferraum" class="lights lights__trunk hide">
+
+            </div>
+
+            <div class="results hide">
+
+                <p>Du benötigst 
+                    <strong class="color__blue font__large">
+                        <span class="kit__base-count">1</span>
+                    </strong> 
+                    <strong class="kit kit__base font__bold">Basis-Kit<span class="kit__pluralize hide">s</span></strong>
+                    <span class="kit__advanced hide">
+                        und 
+                        <strong class="color__green font__large">
+                            <span class="kit__advanced-count">1</span>
+                        </strong> 
+                        <strong class="kit kit__advanced font__bold">Erweiterungs-Kit</strong>   
+                    </span> 
+                </p>
+
+            </div>
+
+        </div>
+        
+        <script src="/main.js"></script>
+    </body>
+
+</html>

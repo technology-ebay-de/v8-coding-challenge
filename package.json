@@ -1,0 +1,23 @@
+{
+  "name": "v8-coding-challenge",
+  "version": "1.0.0",
+  "description": "Please create a pull request for this project with your solution for the requirements shown below.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterklein/v8-coding-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterklein/v8-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/peterklein/v8-coding-challenge#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
