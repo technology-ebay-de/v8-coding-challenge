@@ -1,0 +1,67 @@
+@import url("reset.css");
+
+.main {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.main .controls {
+    height: 50px;
+}
+
+.main .controls .checkbox {
+    float:left;
+    padding-right: 50px;
+}
+
+.main .car {
+    height: 357px;
+    background: url('../images/car.png') no-repeat;
+}
+
+.main .car .led {
+    height: 100%;
+    background: url('../images/ledDouble.png') no-repeat;
+    float: right;
+}
+
+.main .car .led.front {
+     width: 350px;
+     background-position: left center;
+}
+
+.main .car .led.back {
+    width: 220px;
+    background-position: right center;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.main .car .led.trunk {
+    width: 230px;
+    background-position: center center;
+}
+
+.main .spec {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.main .spec .basic {
+    color: #1abc9c;
+}
+
+.main .spec .additional {
+    color: #2980b9;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
