@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+}
+
+.footFront {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}

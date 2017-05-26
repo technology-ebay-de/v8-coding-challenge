@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import CheckboxGroup from '../CheckboxGroup'
+import Car from '../Car'
 
 import './styles.css'
 
@@ -37,6 +38,8 @@ class App extends Component {
           options={checkboxOptions}
           onChange={this.updateOptions}
         />
+
+        <Car />
       </div>
     )
   }
