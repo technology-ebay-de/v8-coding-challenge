@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import Checkbox from '../Checkbox'
 
-import styles from './styles.css'
+import './styles.css'
 
 class CheckboxGroup extends React.PureComponent {
 
@@ -19,7 +19,7 @@ class CheckboxGroup extends React.PureComponent {
     const { options } = this.props;
 
     return (
-      <div className={styles.container}>
+      <div className="checkbox-group__container">
         {
           options.map(option => (
             <Checkbox

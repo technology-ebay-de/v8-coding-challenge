@@ -34,6 +34,18 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>
+          Wie viele LED-Kits benötige ich?
+        </h1>
+
+        <div>
+          Du hast beim Tapezieren zu Hause immer eine Rolle zu wenig? Damit Dir das bei den LED-Stripes nicht auch passiert, kannst Du mit diesem Werkzeug berechnen, wie viele Basis-Kits bzw. Erweiterungs-Kits Du voraussichtlich brauchst.
+        </div>
+
+        <h4>
+          Was möchtest Du ausleuchten?
+        </h4>
+
         <CheckboxGroup
           options={checkboxOptions}
           onChange={this.updateOptions}

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './styles.css'
+import './styles.css'
 
 class Checkbox extends React.PureComponent {
 
@@ -13,7 +13,7 @@ class Checkbox extends React.PureComponent {
     const { id, checked, label } = this.props
 
     return (
-      <div className={styles.container}>
+      <div className="checkbox__container">
         <input
           type="checkbox"
           id={id}

@@ -27,24 +27,26 @@ const getNumExtension = (activeLedIds) => {
 // TODO plurals
 const Car = ({ activeLedIds }) => (
   <div className="car__container">
-    <img
-      className="car__schematics"
-      src="/assets/car.png"
-      alt="car"
-    />
+    <div className="car__image-container">
+      <img
+        className="car__schematics"
+        src="/assets/car.png"
+        alt="car"
+      />
 
-    {
-      activeLedIds.map(ledId => (
-        <Led
-          key={ledId}
-          front={ledId === 1}
-          back={ledId === 2}
-          trunk={ledId === 3}
-        />
-      ))
-    }
+      {
+        activeLedIds.map(ledId => (
+          <Led
+            key={ledId}
+            front={ledId === 1}
+            back={ledId === 2}
+            trunk={ledId === 3}
+          />
+        ))
+      }
+    </div>
 
-    <div>
+    <div className="car__description">
       Du benötigst&nbsp;
       <span className="car__num-basic">{getNumBasic(activeLedIds)}</span>&nbsp;
       <span className="car__basic">Basis-Kit</span>&nbsp;
