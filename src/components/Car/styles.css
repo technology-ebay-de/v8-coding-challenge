@@ -1,0 +1,36 @@
+.car__container {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.car__image-container {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+.car__schematics {
+  width: 100%;
+}
+
+.car__description {
+  text-align: center;
+}
+
+.car__num-basic {
+  font-size: 28px;
+  color: blue;
+}
+
+.car__basic {
+  font-weight: 400;
+}
+
+.car__num-extension {
+  font-size: 28px;
+  color: green;
+}
+
+.car__extension {
+  font-weight: 400;
+}
