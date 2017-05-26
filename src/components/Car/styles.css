@@ -1,9 +1,26 @@
-.container {
+.car__container {
   position: relative;
+  font-size: 20px;
 }
 
-.footFront {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
+.car__schematics {
+  width: 100%;
+}
+
+.car__num-basic {
+  font-size: 28px;
+  color: blue;
+}
+
+.car__basic {
+  font-weight: 400;
+}
+
+.car__num-extension {
+  font-size: 28px;
+  color: green;
+}
+
+.car__extension {
+  font-weight: 400;
 }

@@ -39,7 +39,9 @@ class App extends Component {
           onChange={this.updateOptions}
         />
 
-        <Car />
+        <Car
+          activeLedIds={checkboxOptions.filter(({ checked }) => checked).map(({ id }) => id)}
+        />
       </div>
     )
   }

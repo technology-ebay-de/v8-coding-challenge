@@ -1,0 +1,20 @@
+.car__led {
+  position: absolute;
+  height: 58%;
+  top: 50%;
+}
+
+.car__led-foot-front {
+  left: 56%;
+  transform: translateY(-50%);
+}
+
+.car__led-foot-back {
+  left: 29%;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.car__led-trunk {
+  left: 12%;
+  transform: translateY(-50%);
+}
